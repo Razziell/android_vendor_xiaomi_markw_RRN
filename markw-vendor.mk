@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/markw/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/xiaomi/markw/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/xiaomi/markw/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/markw/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/markw/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -160,6 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
+    vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.msm8953.so:system/lib/hw/fingerprint.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/markw/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/markw/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
@@ -179,7 +182,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.msm8953.so:system/lib64/hw/fingerprint.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
+    vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/markw/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/xiaomi/markw/proprietary/lib64/libdisplayfeature.so:system/lib64/libdisplayfeature.so \
     vendor/xiaomi/markw/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
