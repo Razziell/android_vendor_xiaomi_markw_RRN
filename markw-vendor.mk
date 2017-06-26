@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/markw/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/markw/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/markw/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
@@ -175,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/markw/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/markw/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/xiaomi/markw/proprietary/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
     vendor/xiaomi/markw/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
