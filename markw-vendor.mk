@@ -954,7 +954,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/markw/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/markw/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/markw/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/markw/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/markw/root/init:root/init
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
