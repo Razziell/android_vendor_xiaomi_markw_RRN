@@ -950,10 +950,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/markw/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/markw/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/markw/proprietary/vendor/qcril.db:system/vendor/qcril.db
-
-#    vendor/xiaomi/markw/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
-#    vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
+    vendor/xiaomi/markw/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/markw/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
+    vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
