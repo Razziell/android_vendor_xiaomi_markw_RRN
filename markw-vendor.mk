@@ -123,6 +123,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/markw/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/xiaomi/markw/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
+    vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/markw/proprietary/etc/ft5346_biel_1080p.ini:system/etc/ft5346_biel_1080p.ini \
     vendor/xiaomi/markw/proprietary/etc/ft5346_oufei_1080p.ini:system/etc/ft5346_oufei_1080p.ini \
     vendor/xiaomi/markw/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
