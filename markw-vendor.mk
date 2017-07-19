@@ -184,6 +184,7 @@ vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/fir
     vendor/xiaomi/markw/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/markw/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/markw/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
+    vendor/xiaomi/markw/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/markw/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/markw/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
@@ -736,7 +737,6 @@ vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/fir
     vendor/xiaomi/markw/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libsdm-color.so:system/vendor/lib/libsdm-color.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libsdm-diag.so:system/vendor/lib/libsdm-diag.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libsdmextension.so:system/vendor/lib/libsdmextension.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
@@ -929,7 +929,6 @@ vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/fir
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsdm-color.so:system/vendor/lib64/libsdm-color.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsdm-diag.so:system/vendor/lib64/libsdm-diag.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
@@ -965,6 +964,7 @@ vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/fir
     vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so
 
 PRODUCT_PACKAGES += \
+    libsdm-disp-apis \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
