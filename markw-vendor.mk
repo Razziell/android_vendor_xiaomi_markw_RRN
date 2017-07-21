@@ -975,7 +975,9 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
-    embms \
+    CNEService \
+    ims \
+    imssettings \
     fastdormancy \
     shutdownlistener \
     QtiTetherService \
