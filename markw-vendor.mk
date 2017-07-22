@@ -985,7 +985,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     ims \
     imssettings \
-    fastdormancy \
     shutdownlistener \
     QtiTetherService \
     qcrilhook \
