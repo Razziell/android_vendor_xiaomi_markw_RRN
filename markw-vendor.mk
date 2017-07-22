@@ -211,6 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/xiaomi/markw/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/xiaomi/markw/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/xiaomi/markw/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/markw/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/markw/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
@@ -601,6 +602,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libmdtp.so:system/vendor/lib/libmdtp.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libmdtpdemojni.so:system/vendor/lib/libmdtpdemojni.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
@@ -899,6 +903,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib/64libmdtpdemojni.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
