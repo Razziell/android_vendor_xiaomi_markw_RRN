@@ -988,6 +988,7 @@ PRODUCT_PACKAGES += \
     fastdormancy \
     shutdownlistener \
     QtiTetherService \
+    qcrilhook \
     com.qualcomm.location \
     com.qti.location.sdk \
     qdcm_calib_data_nt35596_1080p_video_EBBG \
