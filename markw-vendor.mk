@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/markw/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/markw/proprietary/bin/cnd:system/bin/cnd \
-    vendor/xiaomi/markw/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/markw/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/markw/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
