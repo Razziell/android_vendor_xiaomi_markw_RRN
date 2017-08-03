@@ -969,7 +969,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/xiaomi/markw/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-	vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so
 	
 
