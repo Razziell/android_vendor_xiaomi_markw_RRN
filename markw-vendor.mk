@@ -971,7 +971,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches
 
 PRODUCT_PACKAGES += \
-    PRODUCT_PACKAGES += \
     libsdm-disp-apis \
     libtime_genoff \
     libts_detected_face_hal \
