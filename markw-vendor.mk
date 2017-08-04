@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/xiaomi/markw/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
     vendor/xiaomi/markw/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/markw/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/markw/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
@@ -129,8 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
-    vendor/xiaomi/markw/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/xiaomi/markw/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/xiaomi/markw/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/markw/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/xiaomi/markw/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -192,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libsdm-disp-apis.so:system/vendor/lib/libsdm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -228,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/vulkan.msm8953.so:system/vendor/lib64/hw/vulkan.msm8953.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libsdm-disp-apis.so:system/vendor/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
@@ -299,7 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/xiaomi/markw/proprietary/priv-app/QtiTetherService/QtiTetherService.apk:system/priv-app/QtiTetherService/QtiTetherService.apk \
     vendor/xiaomi/markw/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
@@ -360,11 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
-    vendor/xiaomi/markw/proprietary/app/QtiTelephonyService/QtiTelephonyService.apk:system/app/QtiTelephonyService/QtiTelephonyService.apk \
-    vendor/xiaomi/markw/proprietary/app/datastatusnotification/datastatusnotification.apk:system/app/datastatusnotification/datastatusnotification.apk \
-    vendor/xiaomi/markw/proprietary/app/embms/embms.apk:system/app/embms/embms.apk \
-    vendor/xiaomi/markw/proprietary/app/fastdormancy/fastdormancy.apk:system/app/fastdormancy/fastdormancy.apk \
-    vendor/xiaomi/markw/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/xiaomi/markw/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/xiaomi/markw/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/xiaomi/markw/proprietary/bin/radish:system/bin/radish \
@@ -377,9 +366,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/markw/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/markw/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/xiaomi/markw/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/xiaomi/markw/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/xiaomi/markw/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/xiaomi/markw/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
@@ -402,8 +389,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/markw/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/markw/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/xiaomi/markw/proprietary/vendor/app/ims/ims.apk:system/vendor/app/ims/ims.apk \
-    vendor/xiaomi/markw/proprietary/vendor/app/imssettings/imssettings.apk:system/vendor/app/imssettings/imssettings.apk \
     vendor/xiaomi/markw/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
@@ -442,11 +427,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/xiaomi/markw/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/xiaomi/markw/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -660,8 +642,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
@@ -957,8 +937,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/markw/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/markw/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/xiaomi/markw/proprietary/etc/qdcm_calib_data_nt35596_1080p_video_EBBG.xml:system/etc/qdcm_calib_data_nt35596_1080p_video_EBBG.xml \
-    vendor/xiaomi/markw/proprietary/etc/qdcm_calib_data_r63350_1080p_video_Tianma.xml:system/etc/qdcm_calib_data_r63350_1080p_video_Tianma.xml \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/markw/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
