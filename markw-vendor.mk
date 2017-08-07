@@ -253,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/a506_zap.b01:system/etc/firmware/a506_zap.b01 \
     vendor/xiaomi/markw/proprietary/etc/firmware/a506_zap.b02:system/etc/firmware/a506_zap.b02 \
     vendor/xiaomi/markw/proprietary/etc/firmware/a506_zap.mdt:system/etc/firmware/a506_zap.mdt \
+    vendor/xiaomi/markw/proprietary/etc/firmware/a506_zap.elf:system/etc/firmware/a506_zap.elf \
     vendor/xiaomi/markw/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/xiaomi/markw/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
     vendor/xiaomi/markw/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
