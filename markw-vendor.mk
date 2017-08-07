@@ -302,8 +302,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/markw/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/xiaomi/markw/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/xiaomi/markw/proprietary/bin/pm-proxy:system/bin/pm-proxy \
