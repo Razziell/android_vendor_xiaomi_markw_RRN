@@ -381,7 +381,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QPerformance
-LOCAL_MODULE_OWNER := bq
+LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/QPerformance.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
