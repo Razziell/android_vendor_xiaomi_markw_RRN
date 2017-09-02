@@ -954,5 +954,4 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     qti-telephony-common \
     rcsimssettings \
-    tcmclient \
-    QPerformance
+    tcmclient
