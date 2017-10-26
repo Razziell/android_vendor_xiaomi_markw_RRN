@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -379,16 +379,5 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
-$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
-$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
-
-ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
-
-RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
-$(foreach f, $(notdir $(RADIO_FILES)), \
-    $(call add-radio-file,radio/$(f)))
-$(call add-radio-file,../../../device/xiaomi/markw/radio/filesmap)
-
-endif
 
 endif

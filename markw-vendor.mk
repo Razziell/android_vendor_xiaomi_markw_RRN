@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
+    vendor/xiaomi/markw/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/markw/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/markw/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/xiaomi/markw/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -58,9 +59,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
     vendor/xiaomi/markw/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/markw/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
+    vendor/xiaomi/markw/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/markw/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/markw/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/xiaomi/markw/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/markw/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/markw/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
@@ -520,7 +521,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/markw/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/xiaomi/markw/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/xiaomi/markw/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/xiaomi/markw/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/markw/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
