@@ -530,6 +530,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/xiaomi/markw/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/xiaomi/markw/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/xiaomi/markw/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/xiaomi/markw/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/markw/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/markw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
