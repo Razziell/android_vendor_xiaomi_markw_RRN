@@ -535,6 +535,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/markw/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/markw/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/xiaomi/markw/proprietary/bin/ssr_setup:system/bin/ssr_setup \
+    vendor/xiaomi/markw/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/xiaomi/markw/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/xiaomi/markw/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/markw/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
