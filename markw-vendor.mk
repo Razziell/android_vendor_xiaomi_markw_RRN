@@ -602,10 +602,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/markw/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/markw/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/xiaomi/markw/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
     vendor/xiaomi/markw/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/xiaomi/markw/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/markw/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/markw/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
+    vendor/xiaomi/markw/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
     vendor/xiaomi/markw/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/markw/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/markw/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
