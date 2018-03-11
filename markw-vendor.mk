@@ -578,6 +578,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/xiaomi/markw/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/xiaomi/markw/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/xiaomi/markw/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
